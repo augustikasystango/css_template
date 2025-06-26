@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    
+
     <div className="bg-[#FBFBEC] relative">
       <div className="flex justify-around items-center mt-4 bg-[#FBFBEC]">
         <div className="">
@@ -37,7 +37,7 @@ export default function Home() {
           <p className="w-[460px] h-[127px] font-semibold text-[51px] leading-[120%] tracking-[0em] align-middle capitalize font-inter">Make your <span className="font-inter font-semibold text-[51px] leading-[120%] tracking-[0em] align-middle capitalize text-[#FF621F]"
           >Holiday</span> Memorable</p>
           <p className="w-[464px] h-[87px] font-inter font-normal text-[21px] leading-[138%] tracking-[0em] align-middle text-[#4A4A4A]">
-          Travor is one of the most popular Travel agency for those who want to explore the wold and try to make adventure
+            Travor is one of the most popular Travel agency for those who want to explore the wold and try to make adventure
           </p>
           <button className=" w-[177px] h-[50px]  rounded-[5px] px-[46px] py-[13px] bg-[#FF621F] text-white mt-6"
           >Plan Trip</button>
@@ -45,21 +45,73 @@ export default function Home() {
         </div>
         <div
         >
-          <Image src="/suitcase.png" alt="suitcase" className="w-[353px] h-[398px] top-[77px] left-[818px] absolute" width={453} height={77}/>
+          <Image src="/suitcase.png" alt="suitcase" className="w-[353px] h-[398px] top-[77px] left-[818px] absolute" width={453} height={77} />
         </div>
       </div>
 
-  {/* break here */}
+      {/* break here */}
       <div className="flex justify-between items-center mt-[380px] w-[866px] ml-auto mr-auto h-[122px] bg-white">
         <div className="flex flex-col gap-y-3"><p>Destination <span><Image src="/arrow.png" alt="arrow" className="w-[10px] h-[5px] border-[2px]
-" width={10} height={5}/></span></p><p className="text-[13px]">Search Location</p></div>
+" width={10} height={5} /></span></p><p className="text-[13px]">Search Location</p></div>
         <div className="flex flex-col gap-y-3"><p>Date</p><p className="text-[13px]">Type Date</p></div>
         <div className="flex justify-center items-center">
-        <div className="flex flex-col gap-y-3"><p>Guest</p><p className="text-[13px]">Number of Guest</p></div>
+          <div className="flex flex-col gap-y-3"><p>Guest</p><p className="text-[13px]">Number of Guest</p></div>
           <button className="ml-4  rounded-[5px] px-[46px] py-[13px] bg-[#FF621F] text-white">Explore now</button>
         </div>
       </div>
 
+
+
+      {/* break here */}
+      <div className="mt-8 mb-2 p-4 bg-[#F7F8FC]">
+        <div className="flex flex-col justify-center items-center gap-y-4">
+          <p className="w-[353px] h-[37px]  left-[420.9px] font-inter font-bold text-[32.63px] leading-[36.7px] tracking-[0%]]"
+          >Things you need <span className=" text-[#FF621F] font-inter font-bold text-[32.63px] leading-[36.7px] tracking-[0]"
+          >to do</span> </p>
+          <p className=" w-[300.609375px] h-[66px]  font-inter font-normal text-[16px] leading-[21.75px] tracking-[0] text-center text-[#666666] "
+          >We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
+
+          <div className="flex justify-between gap-x-5 items-center ">
+            <div className="flex flex-col w-[251.484375px] h-[200.953125px] rounded-[5.44px]  shadow-[0px_4px_7px_0px_#00000033] p-8">
+              <Image src="/Group.png" alt="group" className="mt-2 w-[32.625px] h-[32.625px] top-[199.83px] left-[27.19px]" width={32.625} height={32.625}
+              />
+              <p className=" font-inter font-semibold text-[16.31px] leading-[23.11px] tracking-[0] w-[62px] h-[24px] mt-6"
+              >Sign Up</p>
+              <p className="mt-6 font-inter font-normal text-[12.88px] leading-[17.67px] tracking-[0] text-[#666666] w-[197.109375px] h-[36px] "
+              >Completes all the work associated with planning and processing</p>
+            </div>
+
+
+            <div className="flex flex-col w-[251.484375px] h-[200.953125px] rounded-[5.44px]  shadow-[0px_4px_7px_0px_#00000033] p-8">
+              <Image src="/Group2.png" alt="group" className="mt-2 w-[32.625px] h-[32.625px] top-[199.83px] left-[27.19px]" width={32.625} height={32.625}
+              />
+              <p className=" font-inter font-semibold text-[16.31px] leading-[23.11px] tracking-[0] w-[127px] h-[24px] mt-6"
+              >Worth of Money</p>
+              <p className="mt-6 font-inter font-normal text-[12.88px] leading-[17.67px] tracking-[0] text-[#666666] w-[197.109375px] h-[36px] "
+              >After successful access then book from exclusive deals & pricing</p>
+            </div>
+
+
+            <div className="flex flex-col w-[251.484375px] h-[200.953125px] rounded-[5.44px]  shadow-[0px_4px_7px_0px_#00000033] p-8">
+              <Image src="/location.png" alt="group" className="mt-2 w-[32.625px] h-[32.625px] top-[199.83px] left-[27.19px]" width={32.625} height={32.625}
+              />
+              <p className=" font-inter font-semibold text-[16.31px] leading-[23.11px] tracking-[0] w-[120px] h-[24px] mt-6"
+              >Exiciting Travel</p>
+              <p className="mt-6 font-inter font-normal text-[12.88px] leading-[17.67px] tracking-[0] text-[#666666] w-[197.109375px] h-[36px] "
+              >Start and explore a wide range of exciting travel experience.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {/* break */}
+      <div className="bg-[#F7F8FC] m-auto w-[1195px] h-[524.533px]
+">
+        <p className="font-roboto font-normal text-[21px] leading-[120%] tracking-[0] align-middle capitalize w-[143px] h-[25px] text-[#07AC9E]"
+        >Most attractive</p>
+
+      </div>
     </div>
   );
 }

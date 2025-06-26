@@ -210,7 +210,16 @@ export default function Home() {
 
       {/* break */}
 
-      <div className="w-[1440px] h-[447px] relative top-[100px]">
+      <div className=" h-[447px] ml-[120px] mt-[100px]">
+        <div className=" w-[290px] h-[81px] font-inter font-semibold text-[36px] leading-[40.5px] tracking-[0] "
+        >
+        What people say 
+        <span className="font-inter font-semibold text-[36px] leading-[40.5px] tracking-[0] lowercase text-[#FA7436]"
+        > about us.</span>
+
+        <p className="w-[295.5px] h-[48px] mt-8 font-inter font-normal text-[15px] leading-[24px] tracking-[0] text-[#666666]"
+        >Our Clients send us bunch of smilies with our services and we love them.</p>
+        </div>
 
       </div>
     </div>

@@ -106,10 +106,111 @@ export default function Home() {
       </div>
 
       {/* break */}
-      <div className="bg-[#F7F8FC] m-auto w-[1195px] h-[524.533px]
+      <div className="bg-[#F7F8FC] mt-[100px] w-[1195px] h-[524.533px] flex flex-col
 ">
-        <p className="font-roboto font-normal text-[21px] leading-[120%] tracking-[0] align-middle capitalize w-[143px] h-[25px] text-[#07AC9E]"
+        <p className="font-roboto font-normal text-[21px] leading-[120%] tracking-[0] align-middle capitalize w-[143px] h-[25px] text-[#07AC9E] relative left-[121px]"
         >Most attractive</p>
+        <div className="flex items-center justify-around">
+          <div className="font-inter font-semibold text-[36px] leading-[112%] tracking-[0] text-center capitalize"
+          >Popular Destination</div>
+          <div className="flex justify-center items-center w-[363px] h-[65px] top-[27px] left-[806px] gap-[32px] pt-[10px] pr-[12px] pb-[10px] pl-[12px]">
+            <div className="w-[96px] h-[45px] text-center text-white rounded-[10px] gap-[10px] pt-[9px] pr-[19px] pb-[9px] pl-[19px] bg-[#07AC9E]"
+            >Beach</div>
+            <div className="w-[83px] h-[27px] font-poppins font-medium text-[18px] leading-[100%] tracking-[0] text-[#00000080]"
+            >Waterfall</div>
+            <div  className="w-[83px] h-[27px] font-poppins font-medium text-[18px] leading-[100%] tracking-[0] text-[#00000080]">Mountains</div>
+          </div>
+
+        </div>
+
+        <div className="flex justify-center items-center relative left-[50px] gap-x-3 ">
+          <div className="w-[254px] h-[416.533px] flex flex-col justify-center items-center gap-y-4 shadow-md shadow-gray-300 rounded-sm">
+            <Image src="/trees.jpg" className="w-[264px] h-[283.556px] rounded-[7.82px] mb-[25px]" width={264} height={283.556} alt="trees"/>
+            <div className="flex">
+              <p className="relative right-[72px]">Madrid</p> 
+              <p className="flex justify-center items-center relative left-[63px] gap-x-2 text-[#666666]"><Image src="/star.png" className="w-[15.644px] h-[15.644px] rounded-[7.82px] " alt="str" width={15.644} height={15.644}
+              />4.8</p>
+            </div>
+
+            <div className="flex justify-around items-center gap-x-8 ">
+              <Image src="/loc.png" className="w-[12.29px] h-[15.64px]" width={12.29} height={15.64} alt="location"/>
+              <p className="relative right-[30px] m-2 text-[#666666]">Spain</p>
+              <div >
+                <span className="w-[41.067px] h-[24px] ml-4 mr-4 text-[#999999] line-through">$950</span>
+                <span className="w-[41px] h-[24px] font-poppins font-semibold text-[15.64px] leading-[23.47px] tracking-[0] text-center text-[#FA7436] rounded-[7.82px] bg-[#FFE7DB] p-2 "
+                >$850</span>
+              </div>
+
+            </div>
+          </div>
+          <div className="w-[254px] h-[416.533px] flex flex-col justify-center items-center gap-y-4 shadow-md shadow-gray-300 rounded-sm">
+            <Image src="/beach.png" className="w-[264px] h-[283.556px] rounded-[7.82px] mb-[25px] mb-[25px]" width={264} height={283.556} alt="trees"/>
+            <div className="flex">
+              <p className="relative right-[72px]">Loga Sea</p> 
+              <p className="flex justify-center items-center relative left-[63px] gap-x-2 text-[#666666]"><Image src="/star.png" className="w-[15.644px] h-[15.644px] rounded-[7.82px] " alt="str" width={15.644} height={15.644}
+              />4.8</p>
+            </div>
+
+            <div className="flex justify-around items-center gap-x-8 ">
+              <Image src="/loc.png" className="w-[12.29px] h-[15.64px]" width={12.29} height={15.64} alt="location"/>
+              <p className="relative right-[30px] m-2 text-[#666666]">Germany</p>
+              <div >
+                <span className="w-[41.067px] h-[24px] ml-4 mr-4 text-[#999999] line-through">$950</span>
+                <span className="w-[41px] h-[24px] font-poppins font-semibold text-[15.64px] leading-[23.47px] tracking-[0] text-center text-[#FA7436] rounded-[7.82px] bg-[#FFE7DB] p-2 "
+                >$850</span>
+              </div>
+
+            </div>
+          </div>
+      
+          <div className="w-[254px] h-[416.533px] flex flex-col justify-center items-center gap-y-4 shadow-md shadow-gray-300 rounded-sm">
+            <Image src="/sand.png" className="w-[264px] h-[283.556px] rounded-[7.82px] mb-[25px]" width={264} height={283.556} alt="trees"/>
+            <div className="flex">
+              <p className="relative right-[72px]">Desert</p> 
+              <p className="flex justify-center items-center relative left-[63px] gap-x-2 text-[#666666]"><Image src="/star.png" className="w-[15.644px] h-[15.644px] rounded-[7.82px] " alt="str" width={15.644} height={15.644}
+              />4.8</p>
+            </div>
+
+            <div className="flex justify-around items-center gap-x-8 ">
+              <Image src="/loc.png" className="w-[12.29px] h-[15.64px]" width={12.29} height={15.64} alt="location"/>
+              <p className="relative right-[30px] m-2 text-[#666666]">UK</p>
+              <div >
+                <span className="w-[41.067px] h-[24px] ml-4 mr-4 text-[#999999] line-through">$950</span>
+                <span className="w-[41px] h-[24px] font-poppins font-semibold text-[15.64px] leading-[23.47px] tracking-[0] text-center text-[#FA7436] rounded-[7.82px] bg-[#FFE7DB] p-2 "
+                >$850</span>
+              </div>
+
+            </div>
+          </div>
+          {/* <div className="w-[264px] h-[416.533px] ">4</div> */}
+          <div className="w-[254px] h-[416.533px] flex flex-col justify-center items-center gap-y-4 shadow-md shadow-gray-300 rounded-sm">
+            <Image src="/waterfall.png" className="w-[264px] h-[283.556px] mb-[25px] rounded-[7.82px]" width={264} height={283.556} alt="trees"/>
+            <div className="flex">
+              <p className="relative right-[72px]">Falling</p> 
+              <p className="flex justify-center items-center relative left-[63px] gap-x-2 text-[#666666]"><Image src="/star.png" className="w-[15.644px] h-[15.644px] rounded-[7.82px] " alt="str" width={15.644} height={15.644}
+              />4.8</p>
+            </div>
+
+            <div className="flex justify-around items-center gap-x-8 ">
+              <Image src="/loc.png" className="w-[12.29px] h-[15.64px]" width={12.29} height={15.64} alt="location"/>
+              <p className="relative right-[30px] m-2 text-[#666666]">India</p>
+              <div >
+                <span className="w-[41.067px] h-[24px] ml-4 mr-4 text-[#999999] line-through">$950</span>
+                <span className="w-[41px] h-[24px] font-poppins font-semibold text-[15.64px] leading-[23.47px] tracking-[0] text-center text-[#FA7436] rounded-[7.82px] bg-[#FFE7DB] p-2 "
+                >$850</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      {/* break */}
+
+      <div className="w-[1440px] h-[447px] relative top-[100px]">
 
       </div>
     </div>
